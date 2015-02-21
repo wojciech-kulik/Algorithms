@@ -5,8 +5,8 @@ http://en.wikipedia.org/wiki/Kruskal%27s_algorithm
 
 ## Input
 n m  
-v1 v2 w	 
-...		    
+v1 v2 w	 (m times)  
+...  		    
 vx vy wz
 
 n - number of vertices  

@@ -1,12 +1,12 @@
 # Bellman-Ford algorithm
 
-It is an algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph.[1] It is slower than Dijkstra's algorithm for the same problem, but more versatile, as it is capable of handling graphs in which some of the edge weights are negative numbers.  
+It is an algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph. It is slower than Dijkstra's algorithm for the same problem, but more versatile, as it is capable of handling graphs in which some of the edge weights are negative numbers.  
 http://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm
 
 ## Input 
 v e s  
-a b c  
-...
+a b c  (e times)  
+...   
 
 
 v - number of vertices  

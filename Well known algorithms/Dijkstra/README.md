@@ -5,8 +5,8 @@ http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
 ## Input 
 v e   
-a b c  
-...
+a b c  (e times)  
+...  
 
 
 v - number of vertices  

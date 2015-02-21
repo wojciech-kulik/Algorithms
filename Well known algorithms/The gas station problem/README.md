@@ -11,7 +11,7 @@ Helpful documents:
 ## Input 
 n m  
 p(1) p(2) ... p(n)  
-a b c  
+a b c  (m times)  
 ...  
 x y z
 

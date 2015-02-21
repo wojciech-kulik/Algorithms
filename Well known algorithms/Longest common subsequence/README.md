@@ -4,8 +4,8 @@ The longest common subsequence (LCS) problem is the problem of finding the longe
 http://en.wikipedia.org/wiki/Longest_common_subsequence_problem
 
 ## Input 
-a(1) a(2) ... a(n)  
-b(1) b(2) ... b(m)
+a(1)a(2) ... a(n)  
+b(1)b(2) ... b(m)
 
 ## Sample input
 asbaaababa  

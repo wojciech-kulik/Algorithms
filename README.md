@@ -1,2 +1,2 @@
 # Algorithms
-Repository contains my implementations of some algorithms.
+Repository contains my implementations of some algorithms and data structures.
