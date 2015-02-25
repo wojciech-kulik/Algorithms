@@ -5,10 +5,10 @@ http://en.wikipedia.org/wiki/Apriori_algorithm
 
 ## Implementation  
 This implementation:  
-1. Reads user expenses from table *transactions*.
-2. Creates tuples (user, month, year, category, status) in table *user_expenses*, where status means how much money a user spent for each category each month. Status will be one of the following values: L - Low, M - Medium, H - High.
-3. Generates rules using Apriori algorithm, which allow to find associations between expenses in categories.
-4. Inserts rules into tables *associations_conditions* and *associations_implications*.
+1. Reads user expenses from table *transactions*.  
+2. Creates tuples (user, month, year, category, status) in table *user_expenses*, where status means how much money a user spent for each category each month. Status will be one of the following values: L - Low, M - Medium, H - High.  
+3. Generates rules using Apriori algorithm, which allow to find associations between expenses in categories.  
+4. Inserts rules into tables *associations_conditions* and *associations_implications*.  
 
 ## Requirements
 It requires PostgreSQL database with a table:  
