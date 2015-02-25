@@ -11,12 +11,11 @@ This implementation:
 4. Inserts rules into tables *associations_conditions* and *associations_implications*.  
 
 ## Requirements
-It requires PostgreSQL database with a table:  
+- install PostgreSQL and create a database with a table:  
 ```
 transactions (id serial PRIMARY KEY, date date, amount integer, category bigint, user_id bigint)
 ```  
-
-**You have to extract file */Visual Studio project/pgsql/pgsql.zip* before compilation - it contains PostgreSQL library.**
+- extract */Visual Studio project/pgsql/pgsql.zip* - it contains PostgreSQL library. 
 
 ## Input 
 The application needs the following parameters:  
@@ -32,6 +31,7 @@ Two tables in a database, which contain generated association rules:
 If logging is turned on, all association rules will be also in a file *logs.txt*.
 
 ## Remarks
+- Debug is very slow, use Release for a faster generating.  
 - It is possible to generate random transactions by defining *RANDOM_TEST* in *main.cpp*.   
 - Can be useful to understand Apriori algorithm:  
 http://nikhilvithlani.blogspot.com/2012/03/apriori-algorithm-for-data-mining-made.html
