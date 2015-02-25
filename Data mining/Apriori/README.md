@@ -14,7 +14,9 @@ This implementation:
 It requires PostgreSQL database with a table:  
 ```
 transactions (id serial PRIMARY KEY, date date, amount integer, category bigint, user_id bigint)
-```
+```  
+
+**You have to extract file */Visual Studio project/pgsql/pgsql.zip* before compilation - it contains PostgreSQL library.**
 
 ## Input 
 The application needs the following parameters:  
