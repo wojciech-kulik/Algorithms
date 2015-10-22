@@ -11,7 +11,7 @@ a b c  (e times)
 
 v - number of vertices  
 e - number of edges   
-s - start vertex
+s - start vertex   
 a b c - edge between "a" and "b" and with cost "c"
 
 ## Sample input
