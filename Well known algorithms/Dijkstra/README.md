@@ -4,13 +4,14 @@ It is a graph search algorithm that solves the single-source shortest path probl
 http://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
 ## Input 
-v e   
+v e s   
 a b c  (e times)  
 ...  
 
 
 v - number of vertices  
 e - number of edges   
+s - start vertex
 a b c - edge between "a" and "b" and with cost "c"
 
 ## Sample input
@@ -28,4 +29,4 @@ a b c - edge between "a" and "b" and with cost "c"
 
 ## Output
 
-This algorithm returns shortest distances from city "1" to all other cities.
+This algorithm returns shortest distances from city "s" to all other cities.
