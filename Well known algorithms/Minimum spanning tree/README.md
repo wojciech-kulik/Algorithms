@@ -20,7 +20,7 @@ v1 v2 w - edge between "v1" and "v2" with weight "w"
 1 5 3  
 4 1 5  
 2 6 2  
-2 3   
+2 3 5  
 4 3 4  
 3 5 4  
 4 5 4  
